@@ -1,0 +1,21 @@
+{
+  "name": "voldpc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "火山PC文档",
+  "keywords": [
+    "火山软件开发平台",
+    "火山PC",
+    "火山Windows开发"
+  ],
+  "main": "index.js",
+  "license": "MIT",
+  "author": "VoldPC.Com",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^1.5.4"
+  }
+}
