@@ -20,6 +20,9 @@ TODOs.md
 # Docs dist directory
 /vuepress
 
+# Build files
+/docs/.vuepress/dist/
+
 # Typescript build dist
 packages/@vuepress/shared-utils/lib/
 packages/@vuepress/shared-utils/types/
