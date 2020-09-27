@@ -1,30 +1,49 @@
-name: Deploy GitHub Pages
+# This is a basic workflow to help you get started with Actions
 
+name: deploy app to server
 on:
   push:
     branches:
       - master
-
-# 任务
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
-      # 拉取代码
+      # 切换分支
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@master
+      # 下载 git submodule
+      - uses: srt32/git-actions@v0.0.3
         with:
-          persist-credentials: false
+          args: git submodule update --init --recursive
+      # 使用 node:12
+      - name: use Node.js 12
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      # 安装依赖
+      - name: yarn
+        run: |
+          yarn
+        env:
+          CI: true
+      # 构建
+      - name: yarn docs:build
+        run: |
+          yarn docs:build
+        env:
+          CI: true
 
-      # 生成静态文件
-      - name: Build
-        run: yarn && yarn docs:build
-
-      # 部署到 GitHub Pages
+      # 部署
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: docs/.vuepress/dist
-
+        uses: easingthemes/ssh-deploy@v2.1.5
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.ACCESS_TOKEN }}
+          # 删除服务器上目录里所有文件
+          ARGS: "-avz --delete"
+          # 项目 build 后静态文件位置
+          SOURCE: "docs/.vuepress/dist/"
+          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+          REMOTE_PORT: ${{ secrets.REMOTE_PORT }} 
+          REMOTE_USER: ${{ secrets.REMOTE_USER }}
+          TARGET: ${{ secrets.TARGET }}
