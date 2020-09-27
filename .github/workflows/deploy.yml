@@ -36,13 +36,13 @@ jobs:
 
       # 部署
       - name: Deploy
-        uses: easingthemes/ssh-deploy@v2.0.7
+        uses: easingthemes/ssh-deploy@v2.1.5
         env:
           SSH_PRIVATE_KEY: ${{ secrets.ACCESS_TOKEN }}
           # 删除服务器上目录里所有文件
           ARGS: "-avz --delete"
           # 项目 build 后静态文件位置
-          SOURCE: "docs/.vuepress/dist"
+          SOURCE: "docs/.vuepress/dist/"
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           REMOTE_PORT: ${{ secrets.REMOTE_PORT }} 
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
