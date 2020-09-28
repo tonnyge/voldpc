@@ -19,14 +19,44 @@ module.exports = {
         text: "入门",
         link: "/starter/",
       },
+      {
+        text: "组件",
+        link: "/component/",
+      },
+      {
+        text: "类库",
+        link: "/library/",
+      },
     ],
     sidebar: {
       "/starter/": getStarterSidebar("入门"),
+      "/component/": getComponentSidebar("组件"),
+      "/library/": getLibrarySidebar("类库"),
     },
   },
 };
 
 function getStarterSidebar(groupA) {
+  return [
+    {
+      title: groupA,
+      collapsable: false,
+      children: [""],
+    },
+  ];
+}
+
+function getComponentSidebar(groupA) {
+  return [
+    {
+      title: groupA,
+      collapsable: false,
+      children: [""],
+    },
+  ];
+}
+
+function getLibrarySidebar(groupA) {
   return [
     {
       title: groupA,
