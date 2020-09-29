@@ -1113,6 +1113,25 @@
   dependencies:
     lodash.debounce "^4.0.8"
 
+"@vuepress/plugin-active-header-links@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.npm.taobao.org/@vuepress/plugin-active-header-links/download/@vuepress/plugin-active-header-links-1.6.0.tgz#7d94db2e34a0b4af10b93171f56e7efc3bb7bd40"
+  integrity sha1-fZTbLjSgtK8QuTFx9W5+/Du3vUA=
+  dependencies:
+    lodash.debounce "^4.0.8"
+
+"@vuepress/plugin-back-to-top@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.npm.taobao.org/@vuepress/plugin-back-to-top/download/@vuepress/plugin-back-to-top-1.6.0.tgz#a10df98b7a4f57c627f72289cd0ab2ff0f075a1d"
+  integrity sha1-oQ35i3pPV8Yn9yKJzQqy/w8HWh0=
+  dependencies:
+    lodash.debounce "^4.0.8"
+
+"@vuepress/plugin-google-analytics@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.npm.taobao.org/@vuepress/plugin-google-analytics/download/@vuepress/plugin-google-analytics-1.6.0.tgz#1a3960259556016b668276ab00417f1c96ddf4bd"
+  integrity sha1-GjlgJZVWAWtmgnarAEF/HJbd9L0=
+
 "@vuepress/plugin-last-updated@1.5.4":
   version "1.5.4"
   resolved "https://registry.npm.taobao.org/@vuepress/plugin-last-updated/download/@vuepress/plugin-last-updated-1.5.4.tgz#6f3f9fe720ce7f883c37ddc71ac02fe8f36bbfe4"
@@ -1120,10 +1139,24 @@
   dependencies:
     cross-spawn "^6.0.5"
 
+"@vuepress/plugin-medium-zoom@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.npm.taobao.org/@vuepress/plugin-medium-zoom/download/@vuepress/plugin-medium-zoom-1.6.0.tgz#766d8e535ed8f89ae13423bb39b96f2abeacc28a"
+  integrity sha1-dm2OU17Y+JrhNCO7OblvKr6swoo=
+  dependencies:
+    medium-zoom "^1.0.4"
+
 "@vuepress/plugin-nprogress@1.5.4":
   version "1.5.4"
   resolved "https://registry.npm.taobao.org/@vuepress/plugin-nprogress/download/@vuepress/plugin-nprogress-1.5.4.tgz#b818ebcac5addb6488bf50eb21585450f52ae40c"
   integrity sha1-uBjrysWt22SIv1DrIVhUUPUq5Aw=
+  dependencies:
+    nprogress "^0.2.0"
+
+"@vuepress/plugin-nprogress@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.npm.taobao.org/@vuepress/plugin-nprogress/download/@vuepress/plugin-nprogress-1.6.0.tgz#7c93a3ed233ef8cc21b689d54f518902502e064c"
+  integrity sha1-fJOj7SM++MwhtonVT1GJAlAuBkw=
   dependencies:
     nprogress "^0.2.0"
 
@@ -4850,6 +4883,11 @@ media-typer@0.3.0:
   version "0.3.0"
   resolved "https://registry.npm.taobao.org/media-typer/download/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
   integrity sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g=
+
+medium-zoom@^1.0.4:
+  version "1.0.6"
+  resolved "https://registry.npm.taobao.org/medium-zoom/download/medium-zoom-1.0.6.tgz#9247f21ca9313d8bbe9420aca153a410df08d027"
+  integrity sha1-kkfyHKkxPYu+lCCsoVOkEN8I0Cc=
 
 memory-fs@^0.4.1:
   version "0.4.1"

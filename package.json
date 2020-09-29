@@ -16,6 +16,11 @@
     "docs:build": "vuepress build docs"
   },
   "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.6.0",
+    "@vuepress/plugin-back-to-top": "^1.6.0",
+    "@vuepress/plugin-google-analytics": "^1.6.0",
+    "@vuepress/plugin-medium-zoom": "^1.6.0",
+    "@vuepress/plugin-nprogress": "^1.6.0",
     "vuepress": "^1.5.4"
   }
 }

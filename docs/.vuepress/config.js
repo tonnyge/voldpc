@@ -3,12 +3,32 @@ module.exports = {
   description: "火山PC文档",
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   base: "/",
+  plugins: [
+    [
+      "@vuepress/active-header-links",
+      {
+        sidebarLinkSelector: ".sidebar-link",
+        headerAnchorSelector: ".header-anchor",
+      },
+    ],
+    ["@vuepress/back-to-top"],
+    ["@vuepress/medium-zoom", true],
+    ["@vuepress/nprogress"],
+    [
+      "@vuepress/google-analytics",
+      {
+        ga: "UA-179290022-1", // UA-00000000-0
+      },
+    ],
+  ],
   markdown: {
     lineNumbers: false,
   },
   themeConfig: {
     repo: "tonnyge/voldpc",
     repoLabel: "GitHub",
+    docsDir: 'docs',
+    editLinks: true,
     editLinkText: "在 GitHub 上编辑此页",
     smoothScroll: true,
     sidebarDepth: 2,
