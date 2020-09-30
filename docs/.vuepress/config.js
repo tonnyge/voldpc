@@ -55,6 +55,7 @@ module.exports = {
   ],
   markdown: { lineNumbers: false },
   themeConfig: {
+    logo: "icons/favicon-32x32.png",
     repo: "tonnyge/voldpc",
     repoLabel: "GitHub",
     docsDir: "docs",
