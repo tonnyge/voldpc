@@ -57,7 +57,7 @@ module.exports = resolve({
       { text: '类库', link: '/library/', icon: 'library' }
     ],
     sidebar: {
-      '/starter/': getStarterSidebar('入门'),
+      '/starter/': getStarterSidebar('前言'),
       '/component/': getComponentSidebar('组件'),
       '/library/': getLibrarySidebar('类库')
     }
@@ -69,7 +69,7 @@ function getStarterSidebar(groupA) {
     {
       title: groupA,
       collapsable: false,
-      children: ['']
+      children: ['', 'release']
     }
   ];
 }
