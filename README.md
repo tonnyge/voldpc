@@ -1,5 +1,9 @@
 # 火山 PC 开发平台文档
 
-![Logo](docs/.vuepress/public/hero.png)
+<div align="center">
+<img width="160" src="docs/.vuepress/public/hero.png" alt="logo">
+</div>
+
+---
 
 [官方网站](https://voldpc.com)
