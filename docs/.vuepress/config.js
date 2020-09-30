@@ -4,7 +4,7 @@ module.exports = {
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
     ["link", { rel: "manifest", href: "/manifest.json" }],
-    ["meta", { name: "theme-color", content: "#3eaf7c" }],
+    ["meta", { name: "theme-color", content: "#50bae6" }],
     ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
     [
       "meta",
@@ -33,6 +33,11 @@ module.exports = {
   ],
   base: "/",
   plugins: [
+    ['copyright', { noSelect: true }],
+    ["@vuepress/back-to-top"],
+    ["@vuepress/medium-zoom", true],
+    ["@vuepress/nprogress"],
+    ["@vuepress/google-analytics", { ga: "UA-179290022-1" }],
     [
       "@vuepress/active-header-links",
       {
@@ -40,10 +45,6 @@ module.exports = {
         headerAnchorSelector: ".header-anchor",
       },
     ],
-    ["@vuepress/back-to-top"],
-    ["@vuepress/medium-zoom", true],
-    ["@vuepress/nprogress"],
-    ["@vuepress/google-analytics", { ga: "UA-179290022-1" }],
     [
       "@vuepress/pwa",
       {
