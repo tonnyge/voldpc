@@ -15,7 +15,6 @@ module.exports = {
   base: '/',
   plugins: [
     ['copyright', { noSelect: true }],
-    ['@vuepress/last-updated'],
     ['@vuepress/back-to-top'],
     ['@vuepress/medium-zoom', true],
     ['@vuepress/nprogress'],
@@ -24,6 +23,16 @@ module.exports = {
     [
       '@vuepress/active-header-links',
       { sidebarLinkSelector: '.sidebar-link', headerAnchorSelector: '.header-anchor' }
+    ],
+    [
+      '@vuepress/last-updated',
+      {
+        transformer: (timestamp, lang) => {
+          const moment = require('moment');
+          moment.locale('zh-CN');
+          return moment(timestamp).fromNow();
+        }
+      }
     ]
   ],
   markdown: { lineNumbers: false },
