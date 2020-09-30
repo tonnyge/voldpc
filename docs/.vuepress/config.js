@@ -9,9 +9,12 @@ module.exports = resolve({
     ['meta', { name: 'theme-color', content: '#50bae6' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['link', { rel: 'apple-touch-icon', href: '/icons/apple-touch-icon-152x152.png' }],
-    ['link', { rel: 'mask-icon', href: '/icons/safari-pinned-tab.svg', color: '#3eaf7c' }],
-    ['meta', { name: 'msapplication-TileImage', content: '/icons/msapplication-icon-144x144.png' }],
+    ['link', { rel: 'apple-touch-icon', href: '/assets/icons/apple-touch-icon-152x152.png' }],
+    ['link', { rel: 'mask-icon', href: '/assets/icons/safari-pinned-tab.svg', color: '#3eaf7c' }],
+    [
+      'meta',
+      { name: 'msapplication-TileImage', content: '/assets/icons/msapplication-icon-144x144.png' }
+    ],
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
   ],
   base: '/',
@@ -27,7 +30,7 @@ module.exports = resolve({
   ],
   markdown: { lineNumbers: false },
   themeConfig: {
-    logo: '/icons/favicon-32x32.png',
+    logo: '/assets/icons/favicon-32x32.png',
     repo: 'tonnyge/voldpc',
     repoLabel: 'GitHub',
     docsDir: 'docs',
@@ -49,9 +52,9 @@ module.exports = resolve({
     },
     navbar: true,
     nav: [
-      { text: '入门', link: '/starter/' },
-      { text: '组件', link: '/component/' },
-      { text: '类库', link: '/library/' }
+      { text: '入门', link: '/starter/', icon: 'starter' },
+      { text: '组件', link: '/component/', icon: 'component' },
+      { text: '类库', link: '/library/', icon: 'library' }
     ],
     sidebar: {
       '/starter/': getStarterSidebar('入门'),
