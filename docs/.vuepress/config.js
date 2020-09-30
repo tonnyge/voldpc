@@ -1,4 +1,6 @@
-module.exports = {
+const resolve = require('vuepress-theme-hope/resolve');
+
+module.exports = resolve({
   title: '火山PC开发平台文档',
   description: '火山PC文档',
   head: [
@@ -15,24 +17,12 @@ module.exports = {
   base: '/',
   plugins: [
     ['copyright', { noSelect: true }],
-    ['@vuepress/back-to-top'],
-    ['@vuepress/medium-zoom', true],
+    ['@vuepress/active-header-links'],
     ['@vuepress/nprogress'],
     ['@vuepress/google-analytics', { ga: 'UA-179290022-1' }],
-    ['@vuepress/pwa', { serviceWorker: true, updatePopup: true }],
     [
       '@vuepress/active-header-links',
       { sidebarLinkSelector: '.sidebar-link', headerAnchorSelector: '.header-anchor' }
-    ],
-    [
-      '@vuepress/last-updated',
-      {
-        transformer: (timestamp, lang) => {
-          const moment = require('moment');
-          moment.locale('zh-CN');
-          return moment(timestamp).fromNow();
-        }
-      }
     ]
   ],
   markdown: { lineNumbers: false },
@@ -43,9 +33,15 @@ module.exports = {
     docsDir: 'docs',
     editLinks: true,
     editLinkText: '在 GitHub 上编辑此页',
+    searchMaxSuggestions: 10,
+    searchPlaceholder: '搜索',
+    hostname: 'https://voldpc.com',
     smoothScroll: true,
     sidebarDepth: 2,
-    lastUpdated: '上次更新',
+    footer: {
+      display: true,
+      footer: 'MIT Licensed | Copyright © 2020 VoldPC.Com'
+    },
     navbar: true,
     nav: [
       { text: '入门', link: '/starter/' },
@@ -58,7 +54,7 @@ module.exports = {
       '/library/': getLibrarySidebar('类库')
     }
   }
-};
+});
 
 function getStarterSidebar(groupA) {
   return [
