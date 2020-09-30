@@ -26,6 +26,16 @@ module.exports = resolve({
     [
       '@vuepress/active-header-links',
       { sidebarLinkSelector: '.sidebar-link', headerAnchorSelector: '.header-anchor' }
+    ],
+    [
+      '@vuepress/last-updated',
+      {
+        transformer: (timestamp, lang) => {
+          const moment = require('moment');
+          moment.locale(lang);
+          return moment(timestamp).fromNow();
+        }
+      }
     ]
   ],
   markdown: { lineNumbers: false },
@@ -54,7 +64,14 @@ module.exports = resolve({
     nav: [
       { text: '入门', link: '/starter/', icon: 'starter' },
       { text: '组件', link: '/component/', icon: 'component' },
-      { text: '类库', link: '/library/', icon: 'library' }
+      { text: '类库', link: '/library/', icon: 'library' },
+      {
+        text: '友链',
+        items: [
+          { text: '学编程啦', link: 'https://www.learn-program.club' },
+          { text: '利快云', link: 'https://www.lkuaiy.com' }
+        ]
+      }
     ],
     sidebar: {
       '/starter/': getStarterSidebar('前言'),
