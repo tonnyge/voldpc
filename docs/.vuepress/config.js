@@ -15,7 +15,8 @@ module.exports = resolve({
       'meta',
       { name: 'msapplication-TileImage', content: '/assets/icons/msapplication-icon-144x144.png' }
     ],
-    ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
+    ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
+    ['link', { rel: 'preload', href: '/assets/css/iconfont.css', as: 'style' }]
   ],
   base: '/',
   plugins: [
