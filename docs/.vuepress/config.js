@@ -28,7 +28,7 @@ module.exports = resolve({
       { sidebarLinkSelector: '.sidebar-link', headerAnchorSelector: '.header-anchor' }
     ],
     [
-      '@vuepress/last-updated',
+      '@mr-hope/last-update',
       {
         transformer: (timestamp, lang) => {
           const moment = require('moment');
