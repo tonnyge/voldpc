@@ -1691,8 +1691,8 @@
 
 "@vuepress/plugin-google-analytics@^1.6.0":
   version "1.6.0"
-  resolved "http://mirrors.cloud.tencent.com/npm/@vuepress%2fplugin-google-analytics/-/plugin-google-analytics-1.6.0.tgz#1a3960259556016b668276ab00417f1c96ddf4bd"
-  integrity sha512-CPRTQsq6KnZEb4SEB/6KdXHFKGvKdsg0GWtSYpLTbF/aUETVRUVJsqR7i/tLWgtyB8qFMwzPUiTc7KlEFjvYyg==
+  resolved "https://registry.npm.taobao.org/@vuepress/plugin-google-analytics/download/@vuepress/plugin-google-analytics-1.6.0.tgz#1a3960259556016b668276ab00417f1c96ddf4bd"
+  integrity sha1-GjlgJZVWAWtmgnarAEF/HJbd9L0=
 
 "@vuepress/plugin-last-updated@1.6.0":
   version "1.6.0"
@@ -6145,8 +6145,8 @@ mkdirp@~1.0.4:
 
 moment@^2.29.0:
   version "2.29.0"
-  resolved "http://mirrors.cloud.tencent.com/npm/moment/-/moment-2.29.0.tgz#fcbef955844d91deb55438613ddcec56e86a3425"
-  integrity sha512-z6IJ5HXYiuxvFTI6eiQ9dm77uE0gyy1yXNApVHqTcnIKfY9tIwEjlzsZ6u1LQXvVgKeTnv9Xm7NDvJ7lso3MtA==
+  resolved "https://registry.npm.taobao.org/moment/download/moment-2.29.0.tgz#fcbef955844d91deb55438613ddcec56e86a3425"
+  integrity sha1-/L75VYRNkd61VDhhPdzsVuhqNCU=
 
 move-concurrently@^1.0.1:
   version "1.0.1"
