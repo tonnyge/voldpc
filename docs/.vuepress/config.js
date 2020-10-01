@@ -67,6 +67,7 @@ module.exports = resolve({
       { text: '类库', link: '/library/', icon: 'library' },
       {
         text: '友链',
+        icon: 'link',
         items: [
           { text: '学编程啦', link: 'https://www.learn-program.club' },
           { text: '易之园资源站', link: 'https://www.eyyzy.com' },
