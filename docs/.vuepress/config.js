@@ -58,6 +58,11 @@ module.exports = resolve({
       { text: '组件', link: '/component/', icon: 'component' },
       { text: '类库', link: '/library/', icon: 'library' },
       {
+        text: '加群',
+        link: 'https://qm.qq.com/cgi-bin/qm/qr?k=PpUsjBP8Wwowg4VEIAwNuaKEZRznIEYa&jump_from=webapi',
+        icon: 'joingroup'
+      },
+      {
         text: '友链',
         icon: 'link',
         items: [
