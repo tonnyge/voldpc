@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@vuepress/plugin-active-header-links": "^1.6.0",
+    "@vuepress/plugin-google-analytics": "^1.6.0",
     "@vuepress/plugin-nprogress": "^1.6.0",
     "moment": "^2.29.0",
     "vuepress": "^1.6.0",
