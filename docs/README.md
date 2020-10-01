@@ -13,11 +13,11 @@ action:
   - text: 类库
     link: /library/
 features:
-  - title: 简洁至上
-    details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-  - title: Vue 驱动
-    details: 享受 Vue + webpack 的开发体验，可以在 Markdown 中使用 Vue 组件，又可以使用 Vue 来开发自定义主题。
-  - title: 高性能
-    details: VuePress 会为每个页面预渲染生成静态的 HTML，同时，每个页面被加载的时候，将作为 SPA 运行。
+  - title: 中文开发，简单易懂
+    details: 可直接嵌入C++代码，可编译输出为C++源码、可直接调用C++类库、拥有强大的可视化界面设计布局器。
+  - title: 大平台有保障
+    details: 由易语言作者吴涛开发，继承了部分易语言代码风格，但完全采用面向对象编程，项目管理强大，可以分布式协作开发。
+  - title: 纯开源代码设计
+    details: 所有的核心库、外部库皆为开源，用户可根据需求自行更改功能，按需编译不报毒，调用C++编译器，称之为语言之上的语言。
 footer: MIT Licensed | Copyright © 2020 VoldPC.Com
 ---
