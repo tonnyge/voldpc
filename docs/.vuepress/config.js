@@ -86,6 +86,7 @@ function getStarterSidebar(groupA) {
   return [
     {
       title: groupA,
+      icon: 'intro',
       collapsable: false,
       children: ['', 'release']
     }
