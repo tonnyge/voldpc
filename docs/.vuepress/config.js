@@ -27,16 +27,7 @@ module.exports = resolve({
       '@vuepress/active-header-links',
       { sidebarLinkSelector: '.sidebar-link', headerAnchorSelector: '.header-anchor' }
     ],
-    [
-      '@mr-hope/last-update',
-      {
-        transformer: (timestamp, lang) => {
-          const moment = require('moment');
-          moment.locale(lang);
-          return moment(timestamp).fromNow();
-        }
-      }
-    ]
+    ['@mr-hope/last-update']
   ],
   markdown: { lineNumbers: false },
   themeConfig: {
