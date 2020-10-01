@@ -29,8 +29,21 @@ jobs:
         with:
           node-version: 12
 
+      # 获取缓存目录
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+      - uses: actions/cache@v1
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-node-modules-${{ hashFiles('yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-node-modules-
+            ${{ runner.os }}-
+
       # 安装依赖
-      - name: yarn
+      - name: Install dependencies
+        if: steps.yarn-cache.outputs.cache-hit != 'true'
         run: yarn
 
       # 构建
@@ -43,10 +56,10 @@ jobs:
         env:
           SSH_PRIVATE_KEY: ${{ secrets.ACCESS_TOKEN }}
           # 删除服务器上目录里所有文件
-          ARGS: "-avz --delete"
+          ARGS: '-avz --delete'
           # 项目 build 后静态文件位置
-          SOURCE: "docs/.vuepress/dist/"
+          SOURCE: 'docs/.vuepress/dist/'
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
-          REMOTE_PORT: ${{ secrets.REMOTE_PORT }} 
+          REMOTE_PORT: ${{ secrets.REMOTE_PORT }}
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
           TARGET: ${{ secrets.TARGET }}
