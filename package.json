@@ -2,10 +2,11 @@
   "name": "voldpc",
   "version": "1.0.0",
   "private": true,
-  "description": "火山PC文档",
+  "description": "火山视窗文档",
   "keywords": [
     "火山软件开发平台",
     "火山PC",
+    "火山视窗",
     "火山Windows开发"
   ],
   "main": "index.js",

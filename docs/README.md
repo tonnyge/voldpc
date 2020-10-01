@@ -1,7 +1,7 @@
 ---
 home: true
-title: 火山PC开发平台文档
-tagline: 带你走进火山PC开发平台的大门
+title: 火山视窗开发平台文档
+tagline: 带你走进火山视窗开发平台的大门
 heroImage: /hero.png
 action:
   - text: 入门

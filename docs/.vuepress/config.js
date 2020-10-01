@@ -1,8 +1,8 @@
 const resolve = require('vuepress-theme-hope/resolve');
 
 module.exports = resolve({
-  title: '火山PC开发平台文档',
-  description: '火山PC文档',
+  title: '火山视窗开发平台文档',
+  description: '火山视窗开发平台文档，带你走进火山视窗开发平台的大门',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
