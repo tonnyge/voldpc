@@ -4,6 +4,8 @@ icon: version
 
 # 版本
 
+![火山软件开发平台](/assets/images/starter/release/UVGVhDP0Sahf0saL.png)
+
 ## 火山视窗 内部版 (20.09.27)
 
 更新日志：
