@@ -48,10 +48,6 @@ module.exports = resolve({
       appId: 'GvWvQ0m1QOC8WC8LlGvzjTGR-MdYXbMMI',
       appKey: 'QEgW4xyGLdqIFvKxHo80B7mW'
     },
-    algolia: {
-      apiKey: '71296f91d01da623028b33af34591094',
-      indexName: 'voldpc'
-    },
     footer: {
       display: true,
       footer: 'MIT Licensed | Copyright © 2020 VoldPC.Com'
