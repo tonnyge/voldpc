@@ -33,7 +33,7 @@ module.exports = resolve({
   markdown: { lineNumbers: false },
   themeConfig: {
     logo: '/assets/icons/favicon-32x32.png',
-    repo: 'tonnyge/voldpc',
+    repo: 'VoldPC/voldpc',
     repoLabel: 'GitHub',
     docsDir: 'docs',
     editLinks: true,
@@ -57,6 +57,7 @@ module.exports = resolve({
       { text: '入门', link: '/starter/', icon: 'starter' },
       { text: '组件', link: '/component/', icon: 'component' },
       { text: '类库', link: '/library/', icon: 'library' },
+      { text: '博客', link: '/article/' },
       {
         text: '加群',
         link: 'https://qm.qq.com/cgi-bin/qm/qr?k=PpUsjBP8Wwowg4VEIAwNuaKEZRznIEYa&jump_from=webapi',
