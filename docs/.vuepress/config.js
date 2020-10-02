@@ -33,6 +33,7 @@ module.exports = resolve({
   markdown: { lineNumbers: false },
   themeConfig: {
     logo: '/assets/icons/favicon-32x32.png',
+    author: 'VoldPC',
     repo: 'VoldPC/voldpc',
     repoLabel: 'GitHub',
     docsDir: 'docs',
