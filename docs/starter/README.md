@@ -1,4 +1,5 @@
 ---
+article: false
 icon: info
 ---
 
