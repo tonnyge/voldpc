@@ -43,11 +43,6 @@ module.exports = resolve({
     hostname: 'https://voldpc.com',
     smoothScroll: true,
     sidebarDepth: 2,
-    comment: {
-      type: 'valine',
-      appId: 'GvWvQ0m1QOC8WC8LlGvzjTGR-MdYXbMMI',
-      appKey: 'QEgW4xyGLdqIFvKxHo80B7mW'
-    },
     footer: {
       display: true,
       footer: 'MIT Licensed | Copyright © 2020 VoldPC.Com'
