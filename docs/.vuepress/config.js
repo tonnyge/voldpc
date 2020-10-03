@@ -28,7 +28,8 @@ module.exports = resolve({
       '@vuepress/active-header-links',
       { sidebarLinkSelector: '.sidebar-link', headerAnchorSelector: '.header-anchor' }
     ],
-    ['@mr-hope/last-update']
+    ['@mr-hope/last-update'],
+    ['vuepress-plugin-google-adsense', { ad_client: 'ca-pub-6668627590810317' }]
   ],
   markdown: { lineNumbers: false },
   themeConfig: {
