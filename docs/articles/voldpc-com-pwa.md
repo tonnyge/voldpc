@@ -26,7 +26,7 @@ sticky: 10
 - Kiwi Browser
 - Opera
 
-其中，Google Chrome 和 Microsoft Edge PC 端也支持
+其中，`Google Chrome` 和 `Microsoft Edge` PC 端也支持 PWA
 
 ### 开始使用
 
