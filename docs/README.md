@@ -19,5 +19,5 @@ features:
     details: 由易语言作者吴涛开发，继承了部分易语言代码风格，但完全采用面向对象编程，项目管理强大。
   - title: 纯开源代码设计
     details: 所有的核心库、外部库皆为开源，用户可根据需求自行更改功能，按需编译不报毒，调用C++编译器，称之为语言之上的语言。
-footer: MIT Licensed | Copyright © 2020 VoldPC.Com
+# footer: MIT Licensed | Copyright © 2020 VoldPC.Com
 ---
