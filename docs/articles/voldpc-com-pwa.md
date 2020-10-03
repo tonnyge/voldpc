@@ -1,7 +1,7 @@
 ---
 time: 2020.10.03
 author: VoldPC
-category: FAQ
+category: 公告
 sticky: 10
 ---
 
