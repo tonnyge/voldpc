@@ -71,6 +71,7 @@ module.exports = resolve({
         items: [
           { text: '学编程啦', link: 'https://www.learn-program.club' },
           { text: '易之园资源站', link: 'https://www.eyyzy.com' },
+          { text: '世恒教育', link: 'http://www.shteach.com' },
           { text: '利快云', link: 'https://www.lkuaiy.com' }
         ]
       }
