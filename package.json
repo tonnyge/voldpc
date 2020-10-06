@@ -20,10 +20,10 @@
     "@vuepress/plugin-active-header-links": "^1.6.0",
     "@vuepress/plugin-google-analytics": "^1.6.0",
     "@vuepress/plugin-nprogress": "^1.6.0",
-    "moment": "^2.29.0",
+    "moment": "^2.29.1",
     "vuepress": "^1.6.0",
     "vuepress-plugin-baidu-tongji-analytics": "^1.0.2",
     "vuepress-plugin-copyright": "^1.0.2",
-    "vuepress-theme-hope": "^0.7.4"
+    "vuepress-theme-hope": "^0.7.5"
   }
 }
