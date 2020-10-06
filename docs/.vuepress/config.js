@@ -28,6 +28,7 @@ module.exports = resolve({
       '@vuepress/active-header-links',
       { sidebarLinkSelector: '.sidebar-link', headerAnchorSelector: '.header-anchor' }
     ],
+    ['vuepress-plugin-baidu-tongji-analytics', { key: 'a8eafd5bfb6cde8a17e6c255fc170ced' }],
     ['@mr-hope/last-update']
   ],
   markdown: { lineNumbers: false },

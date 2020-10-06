@@ -22,6 +22,7 @@
     "@vuepress/plugin-nprogress": "^1.6.0",
     "moment": "^2.29.0",
     "vuepress": "^1.6.0",
+    "vuepress-plugin-baidu-tongji-analytics": "^1.0.2",
     "vuepress-plugin-copyright": "^1.0.2",
     "vuepress-theme-hope": "^0.7.4"
   }
