@@ -78,20 +78,26 @@ module.exports = resolve({
       }
     ],
     sidebar: {
-      '/starter/': getStarterSidebar('前言'),
+      '/starter/': getStarterSidebar('前言', '入门'),
       '/component/': getComponentSidebar('组件'),
       '/library/': getLibrarySidebar('类库')
     }
   }
 });
 
-function getStarterSidebar(groupA) {
+function getStarterSidebar(groupA, groupB) {
   return [
     {
       title: groupA,
       icon: 'intro',
       collapsable: false,
       children: ['', 'release']
+    },
+    {
+      title: groupB,
+      icon: 'starter',
+      collapsable: false,
+      children: ['install']
     }
   ];
 }
