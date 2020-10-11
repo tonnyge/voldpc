@@ -97,7 +97,7 @@ function getStarterSidebar(groupA, groupB) {
       title: groupB,
       icon: 'starter',
       collapsable: false,
-      children: ['install']
+      children: ['install', 'first-program']
     }
   ];
 }
