@@ -6,7 +6,7 @@ icon: install
 
 # 安装
 
-1.  首先，从[本站](/starter/release/)下载最新版的火山软件，将其解压到`权限要求比较低的目录`
+1.  首先，从[本站](/starter/release/)下载最新版的火山软件，将其解压到`权限要求比较低的目录` (本文软件放置在`C:\Software\voldev\`目录下)
 
     ![](http://static.voldpc.coolbian.com/assets/images/starter/install/1.png)
 
