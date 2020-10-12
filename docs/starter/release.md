@@ -8,6 +8,14 @@ icon: version
 
 ![火山软件开发平台](/assets/images/starter/release/UVGVhDP0Sahf0saL.png)
 
+## 火山视窗 公测前瞻版 (20.10.12)
+
+更新日志：
+
+公测前瞻版
+
+[64 位下载](https://545c.com/file/17391172-466553486)
+
 ## 火山视窗 内部版 (20.09.27)
 
 更新日志：
