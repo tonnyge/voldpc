@@ -71,3 +71,13 @@ icon: first
 11. 到这里，第一个程序就完成了
 
     ![](http://static.voldpc.coolbian.com/assets/images/starter/first-program/14.gif)
+
+::: tip 课后习题
+
+1. 尝试删除`如果真 (来源对象 == 按钮1)`这一行代码，比较异同，并尝试总结`来源对象`的作用。
+
+2. 尝试总结`// 注意这里是两个 " = "`的作用
+
+[立即完成](https://www.xuebianchengla.com/pages/topic/index?id=1)
+
+:::
