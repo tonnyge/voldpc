@@ -17,6 +17,7 @@
     "dev": "vuepress dev docs --temp .temp"
   },
   "devDependencies": {
+    "@snowdog/vuepress-plugin-pdf-export": "^1.1.0",
     "@vuepress/plugin-active-header-links": "^1.6.0",
     "@vuepress/plugin-google-analytics": "^1.6.0",
     "@vuepress/plugin-nprogress": "^1.6.0",
