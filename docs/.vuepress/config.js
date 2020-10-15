@@ -1,6 +1,6 @@
-const resolve = require('vuepress-theme-hope/resolve');
+const { config } = require('vuepress-theme-hope');
 
-module.exports = resolve({
+module.exports = config({
   title: '火山视窗开发平台文档',
   description: '火山视窗开发平台文档，带你走进火山视窗开发平台的大门',
   head: [
@@ -20,42 +20,37 @@ module.exports = resolve({
   ],
   base: '/',
   plugins: [
-    ['copyright', { noSelect: true }],
-    ['@vuepress/active-header-links'],
-    ['@vuepress/nprogress'],
     ['@vuepress/google-analytics', { ga: 'UA-179290022-1' }],
     [
       '@vuepress/active-header-links',
       { sidebarLinkSelector: '.sidebar-link', headerAnchorSelector: '.header-anchor' }
     ],
-    ['vuepress-plugin-baidu-tongji-analytics', { key: 'a8eafd5bfb6cde8a17e6c255fc170ced' }],
-    ['@mr-hope/last-update']
+    ['vuepress-plugin-baidu-tongji-analytics', { key: 'a8eafd5bfb6cde8a17e6c255fc170ced' }]
   ],
-  markdown: { lineNumbers: false },
   themeConfig: {
+    baseLang: 'zh-CN',
     logo: '/assets/icons/favicon-32x32.png',
     author: 'VoldPC',
     repo: 'VoldPC/voldpc',
-    repoLabel: 'GitHub',
     docsDir: 'docs',
-    editLinks: true,
-    editLinkText: '在 GitHub 上编辑此页',
-    searchMaxSuggestions: 10,
     searchPlaceholder: '搜索',
     hostname: 'https://voldpc.com',
-    smoothScroll: true,
-    sidebarDepth: 2,
     comment: {
       type: 'valine',
       appId: 'GvWvQ0m1QOC8WC8LlGvzjTGR-MdYXbMMI',
       appKey: 'QEgW4xyGLdqIFvKxHo80B7mW',
       comment: false
     },
-    footer: {
-      display: true,
-      footer: 'MIT Licensed | Copyright © 2020 VoldPC.Com'
+    copyright: {
+      status: 'global',
+      noSelect: true
     },
-    navbar: true,
+    footer: {
+      display: true
+    },
+    markdown: {
+      lineNumbers: false
+    },
     nav: [
       { text: '入门', link: '/starter/', icon: 'starter' },
       { text: '组件', link: '/component/', icon: 'component' },
