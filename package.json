@@ -18,11 +18,11 @@
   },
   "devDependencies": {
     "@snowdog/vuepress-plugin-pdf-export": "^1.1.0",
-    "@vuepress/plugin-active-header-links": "^1.6.0",
-    "@vuepress/plugin-google-analytics": "^1.6.0",
-    "@vuepress/plugin-nprogress": "^1.6.0",
+    "@vuepress/plugin-active-header-links": "^1.7.1",
+    "@vuepress/plugin-google-analytics": "^1.7.1",
+    "@vuepress/plugin-nprogress": "^1.7.1",
     "moment": "^2.29.1",
-    "vuepress": "^1.6.0",
+    "vuepress": "^1.7.1",
     "vuepress-plugin-baidu-tongji-analytics": "^1.0.2",
     "vuepress-plugin-copyright": "^1.0.2",
     "vuepress-theme-hope": "^1.0.1"
