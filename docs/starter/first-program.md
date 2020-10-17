@@ -78,6 +78,4 @@ icon: first
 
 2. 尝试总结`// 注意这里是两个 " = "`的作用
 
-[立即完成](https://www.xuebianchengla.com/pages/topic/index?id=1)
-
 :::
