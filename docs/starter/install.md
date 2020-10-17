@@ -8,19 +8,19 @@ icon: install
 
 1.  首先，从[本站](/starter/release/)下载最新版的火山软件，将其解压到`权限要求比较低的目录` (本文软件放置在`C:\Software\voldev\`目录下)
 
-    ![](http://static.voldpc.coolbian.com/assets/images/starter/install/1.png)
+    ![](https://static.voldpc.coolbian.com/assets/images/starter/install/1.png)
 
 2.  运行`voldev.exe`，打开`火山软件开发平台`
 
-    ![](http://static.voldpc.coolbian.com/assets/images/starter/install/2.png)
+    ![](https://static.voldpc.coolbian.com/assets/images/starter/install/2.png)
 
 3.  打开一个火山视窗项目，如果没有可以打开官方提供的例程
 
-    ![](http://static.voldpc.coolbian.com/assets/images/starter/install/3.png)
+    ![](https://static.voldpc.coolbian.com/assets/images/starter/install/3.png)
 
 4.  点击`开始调试`
 
-    ![](http://static.voldpc.coolbian.com/assets/images/starter/install/4.png)
+    ![](https://static.voldpc.coolbian.com/assets/images/starter/install/4.png)
 
 5.  提示安装`Visual Studio 2019生成工具`，点击`开始安装`并点击`是`
 
@@ -51,15 +51,15 @@ icon: install
     >
     > 在系统选项中配置本地编译器时,注意系统必须能够在该目录内找到"VC\Auxiliary\Build\vcvarsall.bat"(VS2017 或以上)或"vc\vcvarsall.bat"(VS2017 以下)编译环境启动批处理文件.
 
-    ![](http://static.voldpc.coolbian.com/assets/images/starter/install/5.png)
+    ![](https://static.voldpc.coolbian.com/assets/images/starter/install/5.png)
 
 6.  进入`Visual Studio安装程序`，点击`继续`
 
-    ![](http://static.voldpc.coolbian.com/assets/images/starter/install/6.png)
+    ![](https://static.voldpc.coolbian.com/assets/images/starter/install/6.png)
 
 7.  耐心等待下载所需文件
 
-    ![](http://static.voldpc.coolbian.com/assets/images/starter/install/7.png)
+    ![](https://static.voldpc.coolbian.com/assets/images/starter/install/7.png)
 
 8.  选择`C++ 生成工具`，在右边栏选择以下内容，并点击下方`安装`按钮
 
@@ -68,22 +68,22 @@ icon: install
     - 适用于最新 v142 生成工具的 C++ ATL (x86 和 x64)
     - 适用于最新 v142 生成工具的 C++ MFC (x86 和 x64)
 
-    ![](http://static.voldpc.coolbian.com/assets/images/starter/install/8.png)
+    ![](https://static.voldpc.coolbian.com/assets/images/starter/install/8.png)
 
 9.  耐心等待安装完成，**安装过程中可能提示重启**
 
-    ![](http://static.voldpc.coolbian.com/assets/images/starter/install/9.png)
+    ![](https://static.voldpc.coolbian.com/assets/images/starter/install/9.png)
 
 10. 安装完成
 
-    ![](http://static.voldpc.coolbian.com/assets/images/starter/install/10.png)
+    ![](https://static.voldpc.coolbian.com/assets/images/starter/install/10.png)
 
 11. 再次打开例程，开始调试
 
-    ![](http://static.voldpc.coolbian.com/assets/images/starter/install/4.png)
+    ![](https://static.voldpc.coolbian.com/assets/images/starter/install/4.png)
 
-    ![](http://static.voldpc.coolbian.com/assets/images/starter/install/11.png)
+    ![](https://static.voldpc.coolbian.com/assets/images/starter/install/11.png)
 
 12. 成功运行
 
-    ![](http://static.voldpc.coolbian.com/assets/images/starter/install/12.png)
+    ![](https://static.voldpc.coolbian.com/assets/images/starter/install/12.png)

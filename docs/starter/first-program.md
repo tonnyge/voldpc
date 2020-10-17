@@ -12,44 +12,44 @@ icon: first
 
 1. 点击菜单栏的`新建` - `项目`
 
-   ![](http://static.voldpc.coolbian.com/assets/images/starter/first-program/1.png)
+   ![](https://static.voldpc.coolbian.com/assets/images/starter/first-program/1.png)
 
 2. 选择 MFC 窗口程序，并填写`项目名称`、`所处位置`、`解决方案名称`，点击`确定`
 
-   ![](http://static.voldpc.coolbian.com/assets/images/starter/first-program/2.png)
+   ![](https://static.voldpc.coolbian.com/assets/images/starter/first-program/2.png)
 
 3. 成功创建解决方案
-   ![](http://static.voldpc.coolbian.com/assets/images/starter/first-program/3.png)
+   ![](https://static.voldpc.coolbian.com/assets/images/starter/first-program/3.png)
 
 ## 编写第一个程序
 
 1. 在`我的主窗口`类上点击右键，选择`设计"我的主窗口"的界面布局`
 
-   ![](http://static.voldpc.coolbian.com/assets/images/starter/first-program/4.png)
+   ![](https://static.voldpc.coolbian.com/assets/images/starter/first-program/4.png)
 
 2. 从左边`组件框`中拖入`按钮`、`标签`
 
-   ![](http://static.voldpc.coolbian.com/assets/images/starter/first-program/5.png)
+   ![](https://static.voldpc.coolbian.com/assets/images/starter/first-program/5.png)
 
 3. 修改标签属性，如图所示
 
-   ![](http://static.voldpc.coolbian.com/assets/images/starter/first-program/6.png)
+   ![](https://static.voldpc.coolbian.com/assets/images/starter/first-program/6.png)
 
 4. 修改按钮属性，如图所示
 
-   ![](http://static.voldpc.coolbian.com/assets/images/starter/first-program/7.png)
+   ![](https://static.voldpc.coolbian.com/assets/images/starter/first-program/7.png)
 
 5. 对组件进行对齐
 
-   ![](http://static.voldpc.coolbian.com/assets/images/starter/first-program/8.png)
+   ![](https://static.voldpc.coolbian.com/assets/images/starter/first-program/8.png)
 
 6. 点击按钮，选择`按钮_被单击`事件 (当然，你也可以像易语言一样直接双击按钮)
 
-   ![](http://static.voldpc.coolbian.com/assets/images/starter/first-program/9.png)
+   ![](https://static.voldpc.coolbian.com/assets/images/starter/first-program/9.png)
 
 7. 跳转到`按钮_被单击`事件
 
-   ![](http://static.voldpc.coolbian.com/assets/images/starter/first-program/10.png)
+   ![](https://static.voldpc.coolbian.com/assets/images/starter/first-program/10.png)
 
 8. 在事件下输入以下代码：（**注意流程线**）
 
@@ -58,19 +58,19 @@ icon: first
        标签1.标题 = "Hello World!"
    ```
 
-   ![](http://static.voldpc.coolbian.com/assets/images/starter/first-program/11.png)
+   ![](https://static.voldpc.coolbian.com/assets/images/starter/first-program/11.png)
 
 9. 点击`开始调试`
 
-   ![](http://static.voldpc.coolbian.com/assets/images/starter/first-program/12.png)
+   ![](https://static.voldpc.coolbian.com/assets/images/starter/first-program/12.png)
 
 10. 等待编译项目
 
-    ![](http://static.voldpc.coolbian.com/assets/images/starter/first-program/13.png)
+    ![](https://static.voldpc.coolbian.com/assets/images/starter/first-program/13.png)
 
 11. 到这里，第一个程序就完成了
 
-    ![](http://static.voldpc.coolbian.com/assets/images/starter/first-program/14.gif)
+    ![](https://static.voldpc.coolbian.com/assets/images/starter/first-program/14.gif)
 
 ::: tip 课后习题
 
