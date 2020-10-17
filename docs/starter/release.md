@@ -4,7 +4,7 @@ time: 2020-09-28
 icon: version
 ---
 
-# 版本
+# 下载
 
 ![火山软件开发平台](/assets/images/starter/release/UVGVhDP0Sahf0saL.png)
 
