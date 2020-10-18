@@ -111,4 +111,69 @@ time: 2020-10-18
 
 ## 第三章
 
-等待更新...
+我们继续从上一个程序开始讲解，这次我们为所添加的新窗口加入菜单支持。
+
+1. 打开上一章完成的项目，然后我们按下<kbd>Ctrl</kbd>+<kbd>I</kbd>快捷键（或者弹出菜单：`插入->插入特定内容`），选择其中的`菜单类`项目，点击`添加`插入到程序中：
+
+   ![](https://static.voldpc.coolbian.com/assets/images/starter/step-by-step-program/s21.png)
+
+2. 右键单击所加入到程序中的`菜单类 1`类,然后选择其中的“打开菜单设计器”菜单项：
+
+   ![](https://static.voldpc.coolbian.com/assets/images/starter/step-by-step-program/s22.png)
+
+3. 设计如下菜单内容：
+
+   ![](https://static.voldpc.coolbian.com/assets/images/starter/step-by-step-program/s23.png)
+
+4. 然后点击`确定`按钮添加到程序中：
+
+   ![](https://static.voldpc.coolbian.com/assets/images/starter/step-by-step-program/s24.png)
+
+5. 右键单击前面的`窗口1`类，然后选择`添加窗口1的事件接收及虚拟方法`菜单项，选择其中的`窗口1_接收到命令`，单击`添加`按钮将其添加到程序中：
+
+   ![](https://static.voldpc.coolbian.com/assets/images/starter/step-by-step-program/s25.png)
+
+   注：另外一种添加事件接收方法的方法为：
+
+   ![](https://static.voldpc.coolbian.com/assets/images/starter/step-by-step-program/s26.png)
+
+6. 此时该部分的程序应该为这样：
+
+   ![](https://static.voldpc.coolbian.com/assets/images/starter/step-by-step-program/s27.png)
+
+7. 在第 24 行上按`Insert`键插入一个空白语句行，然后顺序输入以下语句：
+
+   ![](https://static.voldpc.coolbian.com/assets/images/starter/step-by-step-program/s28.png)
+
+   输入方法不再累述。
+
+8. 将`我的主窗口`类中`按钮_被单击`方法中的第 17 行`我的新窗口.创建对话框 ()`改为`我的新窗口.创建有菜单对话框 (菜单类1)`：
+
+   ![](https://static.voldpc.coolbian.com/assets/images/starter/step-by-step-program/s29.png)
+
+9. 运行此程序，单击`载入新窗口`按钮，然后再单击`我的主菜单->关于火山`菜单项可以看到最终效果：
+
+   ![](https://static.voldpc.coolbian.com/assets/images/starter/step-by-step-program/s30.png)
+
+10. 最终程序在火山视窗样例解决方案中的`教程相关->一步一步跟我学火山`项目中，具体打开方法为：
+
+    1. 在开发环境中执行菜单项`文件->打开->样例解决方案`，在所弹出的对话框中选择`视窗项目`（如果当前系统未安装其它类型项目支持，则不会弹出对话框而直接打开）：
+
+       ![](https://static.voldpc.coolbian.com/assets/images/starter/step-by-step-program/s31.png)
+
+    2. 我们可以看到，该解决方案中有很多样例项目，这是目前（写本文档时）的样例解决方案内容：
+
+       ![](https://static.voldpc.coolbian.com/assets/images/starter/step-by-step-program/s32.png)
+
+    3. 双击该项目中的`main.v`即可看到我们所设计的程序内容：
+       ![](https://static.voldpc.coolbian.com/assets/images/starter/step-by-step-program/s33.png)
+
+---
+
+至此，本教程的内容就暂时结束了，对大家在火山视窗平台开发的后续学习建议如下：
+
+1. 仔细阅读“[火山平台语法手册](http://doc.voldp.com/grammar.htm)”，在其中的“[常用开发环境操作方法](http://doc.voldp.com/grammar.htm#edit_tips)”节中讲述了如何进行常用的编辑操作、如何查看帮助信息、如何查看已有系统类库模块的内容、如何将对应模块加入到你自己的程序中以及如何查找所指定名称的所处例程；
+
+2. 打开并仔细阅读火山视窗平台的样例解决方案（打开方法见上），样例解决方案的内容在后续会不断丰富，阅读并理解样例解决方案中的各个项目内容对于了解火山视窗平台程序编写有很大的好处;
+
+3. 尝试多写一写程序，经常上[火山论坛](http://bbs.voldp.com/)查看相关资源并与其它用户交流，如有意见和想法也可以在上面提出。
