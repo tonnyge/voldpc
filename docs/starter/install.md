@@ -6,13 +6,15 @@ icon: install
 
 # 安装
 
-1.  首先，从[本站](/starter/release/)下载最新版的火山软件，将其解压到`权限要求比较低的目录` (本文软件放置在`C:\Software\voldev\`目录下)
+1.  首先，从[本站](/starter/release/)下载最新版的火山软件，将其安装到`权限要求比较低的目录` (本文软件安装在`C:\Software\vol_dev\win_android_chs_free\`目录下)
 
-    ![](https://static.voldpc.coolbian.com/assets/images/starter/install/1.png)
+    ![](https://static.voldpc.coolbian.com/assets/images/starter/install/04.png)
 
-2.  运行`voldev.exe`，打开`火山软件开发平台`
+2.  运行`火山软件开发平台`
 
-    ![](https://static.voldpc.coolbian.com/assets/images/starter/install/2.png)
+    ![](https://static.voldpc.coolbian.com/assets/images/starter/install/02.png)
+
+    ![](https://static.voldpc.coolbian.com/assets/images/starter/install/01.png)
 
 3.  打开一个火山视窗项目，如果没有可以打开官方提供的例程
 
