@@ -73,20 +73,26 @@ module.exports = config({
       }
     ],
     sidebar: {
-      '/starter/': getStarterSidebar('前言', '入门'),
+      '/starter/': getStarterSidebar('前言', '官方教程', '入门'),
       '/component/': getComponentSidebar('组件'),
       '/library/': getLibrarySidebar('类库')
     }
   }
 });
 
-function getStarterSidebar(groupA, groupB) {
+function getStarterSidebar(groupA, groupB, groupC) {
   return [
     {
       title: groupA,
       icon: 'intro',
       collapsable: false,
       children: ['', 'release']
+    },
+    {
+      title: groupB,
+      icon: 'starter',
+      collapsable: false,
+      children: ['step-by-step-program']
     },
     {
       title: groupB,
