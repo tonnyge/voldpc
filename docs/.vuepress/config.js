@@ -48,7 +48,7 @@ module.exports = config({
     footer: {
       display: true
     },
-    markdown: {
+    mdEnhance: {
       lineNumbers: false
     },
     nav: [
