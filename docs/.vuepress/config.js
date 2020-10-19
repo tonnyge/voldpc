@@ -92,7 +92,7 @@ function getStarterSidebar(groupA, groupB, groupC) {
       title: groupB,
       icon: 'starter',
       collapsable: false,
-      children: ['step-by-step-program']
+      children: ['official-object', 'step-by-step-program']
     },
     {
       title: groupB,
