@@ -92,7 +92,15 @@ function getStarterSidebar(groupA, groupB, groupC) {
       title: groupB,
       icon: 'starter',
       collapsable: false,
-      children: ['official-object', 'step-by-step-program']
+      children: [
+        'official-object',
+        {
+          title: '类库模块的封装(普通用户无需了解)',
+          collapsable: false,
+          children: ['official-vcom']
+        },
+        'step-by-step-program'
+      ]
     },
     {
       title: groupB,
