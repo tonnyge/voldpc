@@ -20,6 +20,19 @@ icon: version
 
 5. 用火山程序自身来封装火山类库，所需要的功能不再另求他人。
 
+## 公测版 (20.10.19)
+
+敬请关注火山开发平台官方网站: [http://www.voldp.com](http://www.voldp.com) ,官方论坛: [http://bbs.volp.com](http://bbs.volp.com), 欢迎加入官方 QQ 群: 496038411
+最新平台版本和封装类库会在官方网站陆续推出.
+
+**注意**: 本版本实际上同时支持视窗和安卓软件开发的，但是出于减少安装包尺寸的考虑，没有把相关辅助数据文件放进去，请把最新安卓版本的以下目录拷贝到本版本安装目录中对等位置即可实现同时开发视窗和安卓程序：
+
+1. 安卓系统类库：plugins\vprj_android
+2. 可以选择拷贝安卓样例解决方案：samples\vprj_android
+3. 帮助文件目前仅自带了仅包括视窗平台的，可以到 [http://doc.voldp.com](http://doc.voldp.com) 查看最新的全面帮助信息。
+
+[64 位下载](https://545c.com/file/17391172-468063377)
+
 ## 公测版 (20.10.18)
 
 敬请关注火山开发平台官方网站: [http://www.voldp.com](http://www.voldp.com) ,官方论坛: [http://bbs.volp.com](http://bbs.volp.com), 欢迎加入官方 QQ 群: 496038411
