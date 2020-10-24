@@ -62,9 +62,10 @@ module.exports = config({
           {
             text: '教程',
             items: [
-              { text: 'C++教程', link: '/more/cpp/' },
-              { text: 'Java教程', link: '/more/java/' },
-              { text: '数据库教程', link: '/more/db/' }
+              { text: 'C++ 教程', link: '/more/cpp/' },
+              { text: 'Java 教程', link: '/more/java/' },
+              { text: 'Python 教程', link: '/more/python/' },
+              { text: '数据库 教程', link: '/more/db/' }
             ]
           }
         ]
