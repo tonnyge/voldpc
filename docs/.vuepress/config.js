@@ -55,7 +55,20 @@ module.exports = config({
       { text: '入门', link: '/starter/', icon: 'starter' },
       // { text: '组件', link: '/component/', icon: 'component' },
       // { text: '类库', link: '/library/', icon: 'library' },
-      // { text: '博客', link: '/blog/', icon: 'blog' },
+      {
+        text: '更多',
+        ariaLabel: '更多',
+        items: [
+          {
+            text: '教程',
+            items: [
+              { text: 'C++教程', link: '/more/cpp/' },
+              { text: 'Java教程', link: '/more/java/' },
+              { text: '数据库教程', link: '/more/db/' }
+            ]
+          }
+        ]
+      },
       {
         text: '加群',
         link: 'https://qm.qq.com/cgi-bin/qm/qr?k=PpUsjBP8Wwowg4VEIAwNuaKEZRznIEYa&jump_from=webapi',
