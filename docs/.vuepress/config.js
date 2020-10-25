@@ -21,6 +21,7 @@ module.exports = config({
   base: '/',
   plugins: [
     ['@vuepress/google-analytics', { ga: 'UA-179290022-1' }],
+    ['vuepress-plugin-google-adsense', { ad_client: 'ca-pub-6668627590810317' }],
     [
       '@vuepress/active-header-links',
       { sidebarLinkSelector: '.sidebar-link', headerAnchorSelector: '.header-anchor' }
