@@ -20,6 +20,10 @@ icon: version
 
 5. 用火山程序自身来封装火山类库，所需要的功能不再另求他人。
 
+## 公测版 (20.10.31)
+
+[64 位下载](https://545c.com/file/17391172-470280118)
+
 ## 公测版 (20.10.19)
 
 敬请关注火山开发平台官方网站: [http://www.voldp.com](http://www.voldp.com) ,官方论坛: [http://bbs.volp.com](http://bbs.volp.com), 欢迎加入官方 QQ 群: 496038411
