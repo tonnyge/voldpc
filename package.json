@@ -26,6 +26,6 @@
     "vuepress-plugin-baidu-tongji-analytics": "^1.0.2",
     "vuepress-plugin-copyright": "^1.0.2",
     "vuepress-plugin-google-adsense": "^0.1.1",
-    "vuepress-theme-hope": "^1.4.7"
+    "vuepress-theme-hope": "^1.5.1"
   }
 }
