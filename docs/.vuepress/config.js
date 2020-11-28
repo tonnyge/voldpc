@@ -16,6 +16,7 @@ module.exports = config({
       { name: 'msapplication-TileImage', content: '/assets/icons/msapplication-icon-144x144.png' }
     ],
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
+    ['meta', { name: 'baidu_union_verify', content: '988907e43cd9548ddeaf9a9646899ded' }],
     ['link', { rel: 'preload', href: '/assets/css/iconfont.css', as: 'style' }]
   ],
   base: '/',
