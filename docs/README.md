@@ -19,4 +19,12 @@ features:
     details: 所有的核心库、外部库皆为开源，用户可根据需求自行更改功能，按需编译不报毒，调用C++编译器，称之为语言之上的语言。
 ---
 
-<a href="https://cloud.tencent.com/act/cps/redirect?redirect=1073&cps_key=0bf524a2bd69e68e98d9f0af95de4fbd&from=console" target="_blank" alt="【腾讯云】11.11 云上盛惠，云产品限时抢购，1核2G云服务器首年88元"><img src="/assets/images/ads/T9FfrdWlzxeWgDSRRll81e9MIE2uPyT4.jpg"></a>
+<center>
+<strong style="font-size: 24px;">
+<p>通知：因站长学业原因，本站暂停更新！</p>
+<p>2021年6月见！</p>
+<p>欢迎各位“火伴”为本站提供帮助！GitHub仓库链接在右上角</p>
+</strong>
+</center>
+
+<center><img src="/assets/images/QRCODE.png"></center>
