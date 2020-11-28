@@ -56,31 +56,25 @@ module.exports = config({
       { text: '入门', link: '/starter/', icon: 'starter' },
       // { text: '组件', link: '/component/', icon: 'component' },
       // { text: '类库', link: '/library/', icon: 'library' },
-      {
-        text: '更多',
-        ariaLabel: '更多',
-        items: [
-          {
-            text: '教程',
-            items: [
-              { text: 'C++ 教程', link: '/more/cpp/' },
-              { text: 'Java 教程', link: '/more/java/' },
-              { text: 'Python 教程', link: '/more/python/' },
-              { text: '数据库 教程', link: '/more/db/' }
-            ]
-          }
-        ]
-      },
-      {
-        text: '加群',
-        link: 'https://qm.qq.com/cgi-bin/qm/qr?k=PpUsjBP8Wwowg4VEIAwNuaKEZRznIEYa&jump_from=webapi',
-        icon: 'joingroup'
-      },
+      // {
+      //   text: '更多',
+      //   ariaLabel: '更多',
+      //   items: [
+      //     {
+      //       text: '教程',
+      //       items: [
+      //         { text: 'C++ 教程', link: '/more/cpp/' },
+      //         { text: 'Java 教程', link: '/more/java/' },
+      //         { text: 'Python 教程', link: '/more/python/' },
+      //         { text: '数据库 教程', link: '/more/db/' }
+      //       ]
+      //     }
+      //   ]
+      // },
       {
         text: '友链',
         icon: 'link',
         items: [
-          { text: '学编程啦', link: 'https://www.learn-program.club' },
           { text: '易之园资源站', link: 'https://www.eyyzy.com' },
           { text: '世恒教育', link: 'http://www.shteach.com' },
           { text: '利快云', link: 'https://www.lkuaiy.com' }
