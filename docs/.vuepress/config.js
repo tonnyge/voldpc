@@ -57,6 +57,7 @@ module.exports = config({
         text: '友链',
         icon: 'link',
         items: [
+          { text: '火山软件开发平台', link: 'http://www.voldp.com' },
           { text: '易之园资源站', link: 'https://www.eyyzy.com' },
           { text: '世恒教育', link: 'http://www.shteach.com' }
         ]
