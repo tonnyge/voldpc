@@ -70,7 +70,7 @@ module.exports = config({
             {
               title: '火山程序开发基础',
               collapsable: false,
-              children: ['object', 'vol_object']
+              children: ['object', 'vol_object', 'homeland']
             }
           ]
         }
