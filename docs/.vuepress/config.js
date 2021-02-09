@@ -51,6 +51,8 @@ module.exports = config({
     },
     nav: [
       { text: '基础资料', link: '/basic/' },
+      { text: '安卓', link: '/and/' },
+      { text: '视窗', link: '/win/' },
       {
         text: '友链',
         icon: 'link',
@@ -74,7 +76,9 @@ module.exports = config({
             }
           ]
         }
-      ]
+      ],
+      '/and/': [{ title: '安卓', collapsable: false, children: [] }],
+      '/win/': [{ title: '视窗', collapsable: false, children: ['step-by-step'] }]
     }
   }
 });
