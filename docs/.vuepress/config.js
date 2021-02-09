@@ -35,6 +35,7 @@ module.exports = config({
     docsDir: 'docs',
     searchPlaceholder: '搜索',
     hostname: 'https://voldpc.com',
+    mdEnhance: { lineNumbers: false, align: true, mark: true, sub: true, sup: true },
     comment: {
       type: 'valine',
       appId: 'GvWvQ0m1QOC8WC8LlGvzjTGR-MdYXbMMI',
@@ -47,9 +48,6 @@ module.exports = config({
     },
     footer: {
       display: true
-    },
-    mdEnhance: {
-      lineNumbers: false
     },
     nav: [
       { text: '基础资料', link: '/basic/' },
