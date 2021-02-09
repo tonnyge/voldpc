@@ -1,8 +1,8 @@
 const { config } = require('vuepress-theme-hope');
 
 module.exports = config({
-  title: '火山视窗开发平台文档',
-  description: '火山视窗开发平台文档，带你走进火山视窗开发平台的大门',
+  title: '火山软件开发平台文档',
+  description: '火山软件开发平台文档，带你走进火山软件开发平台的大门',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
@@ -21,8 +21,6 @@ module.exports = config({
   ],
   base: '/',
   plugins: [
-    ['@vuepress/google-analytics', { ga: 'UA-179290022-1' }],
-    ['vuepress-plugin-google-adsense', { ad_client: 'ca-pub-6668627590810317' }],
     [
       '@vuepress/active-header-links',
       { sidebarLinkSelector: '.sidebar-link', headerAnchorSelector: '.header-anchor' }
@@ -54,89 +52,31 @@ module.exports = config({
       lineNumbers: false
     },
     nav: [
-      { text: '入门', link: '/starter/', icon: 'starter' },
-      // { text: '组件', link: '/component/', icon: 'component' },
-      // { text: '类库', link: '/library/', icon: 'library' },
-      // {
-      //   text: '更多',
-      //   ariaLabel: '更多',
-      //   items: [
-      //     {
-      //       text: '教程',
-      //       items: [
-      //         { text: 'C++ 教程', link: '/more/cpp/' },
-      //         { text: 'Java 教程', link: '/more/java/' },
-      //         { text: 'Python 教程', link: '/more/python/' },
-      //         { text: '数据库 教程', link: '/more/db/' }
-      //       ]
-      //     }
-      //   ]
-      // },
+      { text: '基础资料', link: '/basic/' },
       {
         text: '友链',
         icon: 'link',
         items: [
           { text: '易之园资源站', link: 'https://www.eyyzy.com' },
-          { text: '世恒教育', link: 'http://www.shteach.com' },
-          { text: '利快云', link: 'https://www.lkuaiy.com' }
+          { text: '世恒教育', link: 'http://www.shteach.com' }
         ]
       }
     ],
     sidebar: {
-      '/starter/': getStarterSidebar('前言', '官方教程', '入门'),
-      '/component/': getComponentSidebar('组件'),
-      '/library/': getLibrarySidebar('类库')
+      '/basic/': [
+        {
+          title: '基础资料',
+          collapsable: false,
+          children: [
+            'release',
+            {
+              title: '火山程序开发基础',
+              collapsable: false,
+              children: ['object', 'vol_object']
+            }
+          ]
+        }
+      ]
     }
   }
 });
-
-function getStarterSidebar(groupA, groupB, groupC) {
-  return [
-    {
-      title: groupA,
-      icon: 'intro',
-      collapsable: false,
-      children: ['', 'release']
-    },
-    {
-      title: groupB,
-      icon: 'starter',
-      collapsable: false,
-      children: [
-        'official-object',
-        {
-          title: '类库模块的封装(普通用户无需了解)',
-          collapsable: false,
-          children: ['official-vcom']
-        },
-        'step-by-step-program'
-      ]
-    },
-    {
-      title: groupB,
-      icon: 'starter',
-      collapsable: false,
-      children: ['install', 'first-program', 'analyse-first-program']
-    }
-  ];
-}
-
-function getComponentSidebar(groupA) {
-  return [
-    {
-      title: groupA,
-      collapsable: false,
-      children: ['']
-    }
-  ];
-}
-
-function getLibrarySidebar(groupA) {
-  return [
-    {
-      title: groupA,
-      collapsable: false,
-      children: ['']
-    }
-  ];
-}

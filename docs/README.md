@@ -1,30 +1,22 @@
 ---
 home: true
-title: 火山视窗开发平台文档
-tagline: 带你走进火山视窗开发平台的大门
+title: 火山软件开发平台文档
+tagline: 带你走进火山软件开发平台的大门
 heroImage: /hero.png
 action:
-  - text: 入门 💡
-    link: /starter/
-  - text: 组件
-    link: /component/
-  - text: 类库
-    link: /library/
-features:
-  - title: 中文开发，简单易懂
-    details: 可直接嵌入C++代码，可编译输出为C++源码、可直接调用C++类库、拥有强大的可视化界面设计布局器。
-  - title: 大平台有保障
-    details: 由易语言作者吴涛开发，继承了部分易语言代码风格，但完全采用面向对象编程，项目管理强大。
-  - title: 纯开源代码设计
-    details: 所有的核心库、外部库皆为开源，用户可根据需求自行更改功能，按需编译不报毒，调用C++编译器，称之为语言之上的语言。
+  - text: 基础资料
+    link: /basic/
+  # - text: 组件
+  #   link: /component/
+  # - text: 类库
+  #   link: /library/
+# features:
+#   - title: 中文开发，简单易懂
+#     details: 可直接嵌入C++代码，可编译输出为C++源码、可直接调用C++类库、拥有强大的可视化界面设计布局器。
+#   - title: 大平台有保障
+#     details: 由易语言作者吴涛开发，继承了部分易语言代码风格，但完全采用面向对象编程，项目管理强大。
+#   - title: 纯开源代码设计
+#     details: 所有的核心库、外部库皆为开源，用户可根据需求自行更改功能，按需编译不报毒，调用C++编译器，称之为语言之上的语言。
 ---
-
-<center>
-<strong style="font-size: 24px;">
-<p>通知：因站长学业原因，本站暂停更新！</p>
-<p>2021年6月见！</p>
-<p>欢迎各位“火伴”为本站提供帮助！GitHub仓库链接在右上角</p>
-</strong>
-</center>
 
 <center><img src="/assets/images/QRCODE.png"></center>

@@ -2,7 +2,7 @@
   "name": "voldpc",
   "version": "1.0.0",
   "private": true,
-  "description": "火山视窗文档",
+  "description": "火山软件开发平台文档",
   "keywords": [
     "火山软件开发平台",
     "火山PC",
@@ -17,15 +17,12 @@
     "dev": "vuepress dev docs --temp .temp"
   },
   "devDependencies": {
-    "@snowdog/vuepress-plugin-pdf-export": "^1.1.0",
     "@vuepress/plugin-active-header-links": "^1.8.0",
-    "@vuepress/plugin-google-analytics": "^1.8.0",
     "@vuepress/plugin-nprogress": "^1.8.0",
     "moment": "^2.29.1",
     "vuepress": "^1.8.0",
     "vuepress-plugin-baidu-tongji-analytics": "^1.0.2",
     "vuepress-plugin-copyright": "^1.0.2",
-    "vuepress-plugin-google-adsense": "^0.1.1",
     "vuepress-theme-hope": "^1.9.5"
   }
 }
