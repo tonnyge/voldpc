@@ -70,6 +70,7 @@ module.exports = config({
           collapsable: false,
           children: [
             'release',
+            'grammar',
             {
               title: '火山程序开发基础',
               collapsable: false,
