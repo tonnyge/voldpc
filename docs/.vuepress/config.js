@@ -1,8 +1,9 @@
 const { config } = require('vuepress-theme-hope');
 
 module.exports = config({
-  title: '火山软件开发平台文档',
-  description: '火山软件开发平台文档，带你走进火山软件开发平台的大门',
+  title: '火山软件开发平台文档 | 火山安卓 | 火山视窗',
+  description:
+    '火山软件开发平台文档，带你走进火山软件开发平台的大门。火山软件开发平台、火山安卓开发平台、火山视窗开发平台，应有尽有！',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
