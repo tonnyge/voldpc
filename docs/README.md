@@ -6,10 +6,10 @@ heroImage: /hero.png
 action:
   - text: 基础资料
     link: /basic/
-  # - text: 组件
-  #   link: /component/
-  # - text: 类库
-  #   link: /library/
+  - text: 安卓文档
+    link: /and/
+  - text: 视窗文档
+    link: /win/
 # features:
 #   - title: 中文开发，简单易懂
 #     details: 可直接嵌入C++代码，可编译输出为C++源码、可直接调用C++类库、拥有强大的可视化界面设计布局器。
