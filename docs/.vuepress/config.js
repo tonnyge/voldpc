@@ -74,9 +74,10 @@ module.exports = config({
             'grammar',
             {
               title: '火山程序开发基础',
-              collapsable: false,
+              collapsable: true,
               children: ['object', 'vol_object', 'homeland']
-            }
+            },
+            { title: '类库模块的封装', collapsable: true, children: ['p_vcom', 'p_grammar'] }
           ]
         }
       ],
