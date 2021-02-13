@@ -12,6 +12,8 @@ icon: version
 本站诚通访问密码：**voldpc**
 :::
 
+[历史版本下载](http://voldpc-file.coolbian.com/d/17391172-42457266-f5b6b4)
+
 ### 当前发布版
 
 **当前版本**：飞扬#18
