@@ -18,14 +18,14 @@ icon: version
 
 **免费版**：
 
-- [视窗安卓整合包 32 位](https://545c.com/f/17391172-481884931-c6544f)
-- [视窗安卓整合包 64 位](https://545c.com/f/17391172-481884897-2a9dd0)
-- [视窗 32 位](https://545c.com/f/17391172-481884306-2e1ffb)
-- [视窗 64 位](https://545c.com/f/17391172-481884273-969c2e)
+- [视窗安卓整合包 32 位](http://voldpc-file.coolbian.com/f/17391172-481884931-c6544f)
+- [视窗安卓整合包 64 位](http://voldpc-file.coolbian.com/f/17391172-481884897-2a9dd0)
+- [视窗 32 位](http://voldpc-file.coolbian.com/f/17391172-481884306-2e1ffb)
+- [视窗 64 位](http://voldpc-file.coolbian.com/f/17391172-481884273-969c2e)
 
 **正式版**：请进入正版卡片上地址下载。[正版购买](https://shteach.taobao.com/)
 
-**安卓 jdk、adk 下载**：[32 位下载](https://545c.com/f/17391172-481889507-fe62b5) [64 位下载](https://545c.com/f/17391172-481886938-7afb07)
+**安卓 jdk、adk 下载**：[32 位下载](http://voldpc-file.coolbian.com/f/17391172-481889507-fe62b5) [64 位下载](http://voldpc-file.coolbian.com/f/17391172-481886938-7afb07)
 
 ### [视窗测试版](http://bbs.voldp.com/forum.php?mod=viewthread&tid=7050)
 
@@ -33,12 +33,12 @@ icon: version
 
   增加了"CEF 浏览器"组件,修正了一些已有问题
 
-  [32 位](https://545c.com/f/17391172-481891759-6e7157) [64 位](https://545c.com/f/17391172-481891763-178219)
+  [32 位](http://voldpc-file.coolbian.com/f/17391172-482187160-275a0e) [64 位](http://voldpc-file.coolbian.com/f/17391172-482186976-a94fb2)
 
 - **2021-01-20**
 
   增加了"超级链接框","超级编辑框","分隔条","超级按钮","IP 编辑框","表格"窗口组件,增加了 curl 网页访问,zlib 数据压缩解压模块.
 
-  [32 位](https://545c.com/f/17391172-481884255-cc1d1e) [64 位](https://545c.com/f/17391172-481884316-c9cffa)
+  [32 位](http://voldpc-file.coolbian.com/f/17391172-481884255-cc1d1e) [64 位](http://voldpc-file.coolbian.com/f/17391172-481884316-c9cffa)
 
-- [更多](https://545c.com/d/17391172-40924959-cb7985)
+- [更多](http://voldpc-file.coolbian.com/d/17391172-40924959-cb7985)
