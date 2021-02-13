@@ -51,6 +51,7 @@ module.exports = config({
       display: true
     },
     nav: [
+      { text: '首页', link: '/' },
       { text: '基础资料', link: '/basic/' },
       { text: '安卓', link: '/and/' },
       { text: '视窗', link: '/win/' },
