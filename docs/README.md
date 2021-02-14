@@ -26,3 +26,8 @@ action:
 :::
 
 <center><img src="/assets/images/QRCODE.png"></center>
+
+### 服务器推荐
+
+[![【腾讯云】轻量应用服务器Lighthouse，上云「轻」而易举，1核1G3M低至128元/年，高带宽首选！](https://img-1251985644.file.myqcloud.com/images/20210214151208.jpg)](https://cloud.tencent.com/act/cps/redirect?redirect=1069&cps_key=0bf524a2bd69e68e98d9f0af95de4fbd)
+
