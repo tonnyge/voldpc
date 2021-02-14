@@ -6,6 +6,8 @@ icon: version
 
 # 火山软件开发平台下载
 
+<a href="https://item.taobao.com/item.htm?id=578935789246" target="_blank"><img src="https://img-1251985644.file.myqcloud.com/images/20210214162737.png" alt="购买火山软件开发平台"></a>
+
 ## 软件下载
 
 ::: tip
