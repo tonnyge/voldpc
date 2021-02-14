@@ -82,7 +82,7 @@ module.exports = config({
           ]
         }
       ],
-      '/and/': [{ title: '安卓', collapsable: false, children: ['new'] }],
+      '/and/': [{ title: '安卓', collapsable: false, children: ['tutorial', 'new'] }],
       '/win/': [{ title: '视窗', collapsable: false, children: ['step-by-step'] }]
     }
   }
